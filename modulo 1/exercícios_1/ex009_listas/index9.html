@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"                   content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol>
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar Café</li>
+        <li>Escovar os Dentes</li>
+        <li>Estudar Programação por 1 Hora</li>
+        <li>Jantar</li>
+        <li>Assistir séries</li>
+        <!-- No HTML5, o "li" não precisa ter o fechamento "</li>"
+         PORÉM: o <ol> DEVE ter o fechamento </ol>-->
+        <li>Ir pra Academia
+        <li>Tomar Banho
+        <li>Dormir
+    </ol>
+<!-- Existe um PARÂMETRO na Lista Ordenada (order list-ol) chamada TITLE que tem somente as opções de começar com o número 1,A,a,I,i.
+ E para começar uma lista com uma sequência que não seja o 1, use outro parâmetro do "ol" chamado START !-->
+    <ol title="1" start="4">
+        <li>Arrumar o Quarto</li>
+        <li>Lavar a Cozinha</li>
+        <li>Pendurar as Roupas no Varal</li>
+        
+    </ol>
+    <h2>Listas NÃO Ordenadas</h2>
+    <ul type="disc">
+<!-- Existem outros tipos de parâmetros com tipos diferentes como: "circle" e "square" -->
+        <li>Pão</li>
+        <li>Queijo</li>
+        <li>Leite</li>
+        <li>Achocolatado</li>
+        <li>Manteiga</li>
+        <li>Coca-Cola</li>
+    </ul>
+    <h2>Minhas Linguagens Favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <!-- Caso queira que a lista acima dê sequência à de baixo, use o parâmetro TITLE junto com o START. Mas esses parâmetros só continuam a sequência na ordem numérica. Para ficar na sequência do alfabeto, veja qual é o número que representa a próxima letra. -->
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mário Bross</li>
+            <ul type="circle">
+                <li>Mário Bross 3</li>
+                <li>Mário: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkei Kong 2</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+    </ul type="square">
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</htmlu

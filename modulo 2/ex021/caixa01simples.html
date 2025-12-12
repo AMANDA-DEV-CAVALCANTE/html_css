@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            /*
+            POR PADRÃO, H1 É UM ELEMENTO BLOCK-LEVEL, OU SEJA, OCUPA A LARGURA TOTAL DO ELEMENTO PAI.
+
+            PARA CONVERTÊ-LO EM UM ELEMENTO INLINE-LEVEL, BASTA ADICIONAR A PROPRIEDADE display: inline;
+            QUANDO O ELEMENTO É INLINE-LEVEL, A LARGURA É DEFINIDA PELO CONTEÚDO DO ELEMENTO FAZENDO COM QUE NÃO HAJA QUEBRA DE LINHA E CONSEQUENTEMENTE NÃO OCUPA A LARGURA TOTAL DO ELEMENTO PAI. POR ISSO, NÃO É POSSÍVEL DEFINIR LARGURA E ALTURA PARA ELEMENTOS INLINE-LEVEL (HEIGHT E WIDTH NÃO FUNCIONAM).
+            */
+            background-color: lightgrey;
+            height: 300px;
+            width: 300px;
+            
+            border-width: 10px solid violet;
+
+            /*
+                Para definir o pading ou qualquer outra propriedade de forma mais compacta, podemos usar a seguinte sintaxe:
+                padding: 10px 10px 10px 10px;
+                ***
+                O primeiro valor é o padding-top, o segundo é o padding-right, o terceiro é o padding-bottom e o quarto é o padding-left.
+                ***
+                Se o valor for o mesmo para todos os lados, podemos usar apenas um valor, como por exemplo: padding: 10px;
+                Se o valor for o mesmo para os lados verticais e horizontais, podemos usar dois valores, como por exemplo: padding: 10px 20px;
+            */
+
+            padding: 10px;
+
+            margin: 20px auto 40px auto;            
+            
+            /*
+            Para centralizar a caixa, podemos usar a propriedade margin: auto; e definir uma largura para a caixa.
+            Se a largura não for definida, a caixa ocupará toda a largura disponível.
+            Para centralizar os espaços das margens, podemos usar a propriedade
+
+            ### margin: 20px auto 40 auto; ###
+
+            A propriedade margin: auto; centraliza a caixa horizontalmente dentro do elemento pai.
+            A propriedade margin: auto; só funciona se a largura da caixa for menor que a largura do elemento pai. 
+            Se a largura da caixa for maior que a largura do elemento pai, a propriedade margin: auto; não funcionará.
+            */
+
+            outline: 5px dashed green
+        }
+
+        a { /*  INLINE-LEVEL SÓ PARA O LINK NESTE EXEMPLO */
+            border: 10px solid red;
+
+            padding: 10px;
+        }
+
+        /* PARA CONVERTÊ-LO EM UM ELEMENTO BOX-LEVEL, BASTA ADICIONAR A PROPRIEDADE display: block; */
+        /* 
+            A propriedade display: block; faz com que o elemento ocupe toda a largura disponível do elemento pai, ou seja, ele se torna um elemento block-level.
+            A propriedade display: inline; faz com que o elemento ocupe apenas a largura necessária para o conteúdo, ou seja, ele se torna um elemento inline-level.
+        */
+
+</style>
+
+</head>
+<body>
+    <h1>Exemplo de Caixa Box-Level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#"> links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

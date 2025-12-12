@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Meta';
+            src: url('fonts/Meta Courage TTF.ttf') format('opentype'); /* Formato do arquivo */
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de formats():
+            - opentype (.otf)
+            - truetype (.ttf)
+            - embedded-opentype (.eot)
+            - trueType(-aat (Apple Advanced Typography);
+            - svg (.svg, .svgz)
+            */
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Meta', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, odit animi tempora in, quibusdam ipsa sed totam aliquam beatae at quo vitae, vel impedit magni? Maiores sapiente veniam autem dolorum?
+    </p>
+</body>
+</html>
