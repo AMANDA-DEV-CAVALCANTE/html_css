@@ -1,7 +1,9 @@
-https://amanda-dev-cavalcante.github.io/html_css/modulo3/ex022/fundo001.html
-https://amanda-dev-cavalcante.github.io/html_css/modulo3/ex022/fundo002.html
-https://amanda-dev-cavalcante.github.io/html_css/modulo3/ex022/fundo003.html
-https://amanda-dev-cavalcante.github.io/html_css/modulo3/ex022/fundo004.html
-https://amanda-dev-cavalcante.github.io/html_css/modulo3/ex022/fundo005.html
-https://amanda-dev-cavalcante.github.io/html_css/modulo3/ex022/fundo006.html
-https://amanda-dev-cavalcante.github.io/html_css/modulo3/ex022/fundo007.html
+https://amanda-dev-cavalcante.github.io/html_css/modulo3/EXERCÍCIOS/ex022/fundo001.html
+https://amanda-dev-cavalcante.github.io/html_css/modulo3/EXERCÍCIOS/ex022/fundo002.html
+https://amanda-dev-cavalcante.github.io/html_css/modulo3/EXERCÍCIOS/ex022/fundo003.html
+https://amanda-dev-cavalcante.github.io/html_css/modulo3/EXERCÍCIOS/ex022/fundo004.html
+https://amanda-dev-cavalcante.github.io/html_css/modulo3/EXERCÍCIOS/ex022/fundo005.html
+https://amanda-dev-cavalcante.github.io/html_css/modulo3/EXERCÍCIOS/ex022/fundo006.html
+https://amanda-dev-cavalcante.github.io/html_css/modulo3/EXERCÍCIOS/ex022/fundo007.html
+
+D:\Programação\Curso em Video - HTML5 & CSS3\exercicios do curso em video-html_css\html_css\modulo3\EXERCÍCIOS\ex022\fundo004.html
