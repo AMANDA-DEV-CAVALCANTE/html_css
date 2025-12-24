@@ -1,1 +1,11 @@
 @charset "UTF-8";
+
+@import url('https://fonts.adobe.com/fonts/comic-sans-ms#details-section+comic-sans-ms-bold-60268');
+
+@font-face {
+    font-family: 'comic-sans-ms', sans-serif;
+    src: url('https://fonts.adobe.com/') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
